@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>org.my.profile.softwareupdate</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5de5b1e3-65b6-3a6b-8a59-c1cef03ca406</string>
+	<key>PayloadOrganization</key>
+	<string>My Organization</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>Software Update Settings</string>
+	<key>PayloadDescription</key>
+	<string>Software Update settings</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.SoftwareUpdate</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>org.my.profile.softwareupdate.catalogURL</string>
+			<key>PayloadUUID</key>
+			<string>33490670-3972-3d3e-b83f-0634e42b2647</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Software Update Server URL</string>
+			<key>CatalogURL</key>
+			<string>https://sus.my.org/index.sucatalog</string>
+		</dict>
+	</array>
+</dict>
+</plist>

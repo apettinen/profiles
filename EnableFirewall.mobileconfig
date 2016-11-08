@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Enable Application Layer Firewall</string>
+	<key>PayloadDisplayName</key>
+	<string>Enable Application Layer Firewall</string>
+	<key>PayloadIdentifier</key>
+	<string>org.my.profiles.alf</string>
+	<key>PayloadUUID</key>
+	<string>f7f295f3-ab23-3a8b-9d52-791d387f08e8</string>
+	<key>PayloadOrganization</key>
+	<string>My Organization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.security.firewall</string>
+			<key>PayloadIdentifier</key>
+			<string>org.my.profiles.alf.settings</string>
+			<key>PayloadUUID</key>
+			<string>93c6ae40-0cd0-3522-a689-41e0450455f4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Application Layer Firewall Settings</string>
+			<key>EnableFirewall</key>
+			<true/>
+			<key>EnableStealthMode</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

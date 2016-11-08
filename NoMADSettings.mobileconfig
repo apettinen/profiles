@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Preconfigured Settings for NoMAD</string>
+	<key>PayloadDisplayName</key>
+	<string>NoMAD Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>org.my.profiles.NoMAD</string>
+	<key>PayloadUUID</key>
+	<string>9bae1579-cb85-388f-9f13-44c72b970f87</string>
+	<key>PayloadOrganization</key>
+	<string>My Organization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.trusourcelabs.NoMAD</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>ADDomain</key>
+								<string>domain.my.org</string>
+								<key>KerberosRealm</key>
+								<string>REALM.MY.ORG</string>
+								<key>RenewTickets</key>
+								<true/>
+								<key>SecondsToRenew</key>
+								<integer>3600</integer>
+								<key>ShowHome</key>
+								<integer>1</integer>
+								<key>Template</key>
+								<string>MyTemplate</string>
+								<key>UseKeychain</key>
+								<true/>
+								<key>UserAging</key>
+								<false/>
+								<key>x509CA</key>
+								<string>ca.my.org</string>
+								<key>LocalPasswordSync</key>
+								<false/>
+								<key>GetHelpType</key>
+								<string>App</string>
+								<key>GetHelpOptions</key>
+								<string>mailto:helpdesk@my.org</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>org.my.profiles.NoMAD.settings</string>
+			<key>PayloadUUID</key>
+			<string>61ee755c-1f14-3c2f-b9c2-d366cc7f60ca</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

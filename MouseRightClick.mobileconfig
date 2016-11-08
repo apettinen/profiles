@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Set right click for mouse but do not force it</string>
+	<key>PayloadDisplayName</key>
+	<string>Enable right click for mouse</string>
+	<key>PayloadIdentifier</key>
+	<string>org.my.profiles.mouse</string>
+	<key>PayloadUUID</key>
+	<string>d8129585-13c2-38f8-b351-88abceccde6e</string>
+	<key>PayloadOrganization</key>
+	<string>My Organization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.driver.AppleHIDMouse</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2015-12-06T18:58:51Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>Button2</key>
+								<integer>2</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>org.my.profiles.mouse.enablerightclick</string>
+			<key>PayloadUUID</key>
+			<string>bc5985eb-c48d-3e09-a29e-13544a1c15dd</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

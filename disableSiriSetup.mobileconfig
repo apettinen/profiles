@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadIdentifier</key>
+    <string>org.my.profile.disableSiriSetup</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>a20b6730-74e5-3030-b402-5c425b33a5b5</string>
+    <key>PayloadOrganization</key>
+    <string>My Organization</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadDisplayName</key>
+    <string>Disable Siri at setup</string>
+    <key>PayloadDescription</key>
+    <string>Disable Siri Setup in login</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.SetupAssistant.managed</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>org.my.profile.disableSiriSetup.skipSetupAssistant</string>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadUUID</key>
+        <string>87134660-121e-3744-bf1b-0cda30c7ed6c</string>
+        <key>PayloadDisplayName</key>
+        <string>Skip Siri Setup Assistant</string>
+        <key>SkipSiriSetup</key>
+        <true/>
+      </dict>
+    </array>
+  </dict>
+</plist>
